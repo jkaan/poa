@@ -2,10 +2,14 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
 
+% Zorgt voor de mooie header en zorgt ervoor dat page numbering links staat
 \pagestyle{fancy}
 \fancyhf{}
 \lhead{Plan of Action}
 \lfoot{\thepage}
+
+% Zorgt dat de inhoudsopgave ook zo heet
+\renewcommand{\contentsname}{Inhoudsopgave}
 
 \title{Plan van Aanpak}
 \author{Joey Kaan}
@@ -13,17 +17,33 @@
 
 \begin{document}
 
-\section{Omslag}
+% Begin - Omslag pagina
+
+\begin{center}
+{\huge Connect Social Business\par}
+\end{center}
 \thispagestyle{empty}
 \clearpage
+
+% Eind - Omslag pagina
+
+% Begin - Titel pagina
 
 \maketitle
 \thispagestyle{empty}
 \clearpage
 
+% Eind - Titel pagina
+
+% Begin - Inhoudsopgave
+
 \tableofcontents
 \thispagestyle{empty}
 \clearpage
+
+% Eind - Inhoudsopgave
+
+% Begin - Achtergronden paragraaf
 
 \section{Achtergronden}
 Het bedrijf waar ik bij ga stage lopen/stage loop heet Connect Social Business, meestal ConnectSB genoemd. ConnectSB is een startup die in korte tijd een goede naam heeft opgebouwd door bedrijven te ondersteunen bij alles wat te maken heeft met social media. Een aantal van de klanten waar ConnectSB mee werkt zijn:
@@ -32,8 +52,12 @@ Het bedrijf waar ik bij ga stage lopen/stage loop heet Connect Social Business, 
 \item Karwei
 \item Fruittella
 \end{itemize}
-Naast het ondersteunen hebben veel bedrijven behoefte aan het opzetten van hun social media aanwezigheid. ConnectSB biedt hiervoor verschillende apps aan die op Facebook draaien en die met als doel hebben om klanten toe te trekken naar het bedrijf via social media. De developers, een 6-koppig team, zijn verantwoordelijk voor het maken van deze apps. Deze apps komen ook met een administratief beheer. Op deze manier kunnen de community managers hier gemakkelijk mee aan de slag zonder dat een developer hier bij nodig is. De community managers zijn weer verantwoordelijk voor zoals eerder gezegd het beheren van de verschillende apps voor de klanten, ook maken ze posts die voor de klant dan op hun facebook pagina gepost worden.
+Naast het ondersteunen hebben veel bedrijven behoefte aan het opzetten van hun social media aanwezigheid. ConnectSB biedt hiervoor verschillende apps aan die op Facebook draaien en die met als doel hebben om klanten toe te trekken naar het bedrijf via social media. De developers, een 6-koppig team, zijn verantwoordelijk voor het maken van deze apps. Deze apps komen ook met een administratief beheer. Op deze manier kunnen de community managers hier gemakkelijk mee aan de slag zonder dat een developer hier bij nodig is. 
+
+De community managers zijn weer verantwoordelijk voor zoals eerder gezegd het beheren van de verschillende apps voor de klanten, ook maken ze posts die voor de klant dan op hun facebook pagina gepost worden.
 
 Als laatste komen hier natuurlijk de designers bij kijken, deze ondersteunen bij het maken van apps en het maken van posts om te zorgen dat het er goed uitziet voor de klant.
+
+% Eind - Achtergronden paragraaf
 
 \end{document}
