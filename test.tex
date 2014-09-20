@@ -2,6 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
+\usepackage{chngpage}
+\usepackage{calc}
 
 % Lijst met bronnen, deze zal ik later aan het einde toevoegen van dit document
 % http://www.carrieretijger.nl/functioneren/professionele-eigenschappen
@@ -24,8 +26,17 @@
 % Begin - Omslag pagina
 
 \begin{center}
+
 {\huge Connect Social Business\par}
-\includegraphics[width=\paperwidth]{connectsblogo}
+\begin{figure}[!ht]
+  \begin{adjustwidth}{-\oddsidemargin-1in}{-\rightmargin}
+    \centering
+    \includegraphics[width=\paperwidth]{connectsblogo}
+    \caption{a page width figure}
+    \label{fig:fig1}
+  \end{adjustwidth}
+\end{figure}
+
 \end{center}
 \thispagestyle{empty}
 \clearpage
